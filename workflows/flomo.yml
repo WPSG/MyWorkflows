@@ -1,8 +1,6 @@
 on:
   telegram_bot:
-    event: 
-      - text
-      - photo
+    event: text
     token: ${{ secrets.TG_BOT_FOR_FLOMO }}
     config:
       every: "*/3 * * * *"
@@ -16,4 +14,4 @@ jobs:
           url: ${{ secrets.FLOMO_API }}
           method: post
           content-type: application/json
-          params: '{ "content": "<<<${{ on.telegram_bot.outputs.text }}>>>,<<<${{ on.telegram_bot.outputs.photo }}>>>" }'
+          params: '{ "content": "<<<${{ on.telegram_bot.outputs.text }}>>>" }'
