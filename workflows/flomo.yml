@@ -2,8 +2,6 @@ on:
   telegram_bot:
     event: text
     token: ${{ secrets.TG_BOT_FOR_FLOMO }}
-    config:
-      every: "*/5 * * * *"
 jobs:
   flomo: 
     name: send-to-flomo
