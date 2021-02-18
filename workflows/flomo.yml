@@ -3,7 +3,7 @@ on:
     event: text
     token: ${{ secrets.TG_BOT_FOR_FLOMO }}
     config:
-      every: "*/3 * * * *"
+      every: "*/5 * * * *"
 jobs:
   flomo: 
     name: send-to-flomo
