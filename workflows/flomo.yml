@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actionsflow/axios@v1
         with:
-          url: ${{ secret.FLOMO_API }}
+          url: ${{ secrets.FLOMO_API }}
           method: post
           content-type: application/json
           data: '{ "content": ${{ on.telegram_bot.outputs.text }} }'
