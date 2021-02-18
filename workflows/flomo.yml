@@ -10,9 +10,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actionsflow/axios@v1
+        id: flomo
         with:
           url: ${{ secrets.FLOMO_API }}
           method: post
           content-type: application/json
           data: '{ "content": ${{ on.telegram_bot.outputs.text }} }'
+      - run: echo ${{ steps.flomo.outputs.data }}
         
