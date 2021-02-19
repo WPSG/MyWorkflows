@@ -6,20 +6,20 @@ on:
       #     filter_case_sensitive: false
       #     filter_title: 罐头|狗粮|爱肯拿|渴望|姐妹们快|牛奶|牛肉|羊肉|来伊份岩烧|来伊份面包|烤箱|生鲜|螺蛳粉|米诺|果酸|杏仁酸|鸡蛋|大米|薅|cr海盐|洗头膏|崔娅蓬松|洗鼻|橙
       #     filterout_title: 求|转|求购|交流|已购|专楼|蒙牛|伊利|讨论|华为|停车|代拍|完|分装|意向|拼单|删|一元
-      - path: /ncm/artist/74613
-      - path: /weibo/user/7319628020
-      - path: /weibo/user/5474293619
-      - path: /weibo/user/6136032379
-      - path: /weibo/user/7125193035
-      - path: /bilibili/live/room/4580389
-      - path: /bilibili/live/room/545156
-      - path: /telegram/channel/nCoV2019
-      - path: /ncm/playlist/2345862215
-      - path: /ncm/user/playlist/488860927
-      - path: /telegram/channel/NewlearnerChannel
-      - path: /telegram/channel/TGgeek
-      - path: /zhihu/people/activities/fang-fang-75-69-92
-      - path: /bilibili/user/dynamic/474937176
+      - /ncm/artist/74613
+      - /weibo/user/7319628020
+      - /weibo/user/5474293619
+      - /weibo/user/6136032379
+      - /weibo/user/7125193035
+      - /bilibili/live/room/4580389
+      - /bilibili/live/room/545156
+      - /telegram/channel/nCoV2019
+      - /ncm/playlist/2345862215
+      - /ncm/user/playlist/488860927
+      - /telegram/channel/NewlearnerChannel
+      - /telegram/channel/TGgeek
+      - /zhihu/people/activities/fang-fang-75-69-92
+      - /bilibili/user/dynamic/474937176
     config:
       skipFirst: true
       format: |
