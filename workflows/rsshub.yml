@@ -47,7 +47,8 @@ jobs:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TG_BOT_FOR_RSS }}
           message: |
-            <b>${{ on.rsshub.outputs.title}}</b>
+            <b>${{ on.rsshub.outputs.__channel_title }}</b>
+            ${{ on.rsshub.outputs.title }}
             <a href="${{on.rsshub.outputs.link}}">${{on.rsshub.outputs.description}}</a>
           format: html
           disable_web_page_preview: true
