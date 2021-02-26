@@ -20,6 +20,6 @@ jobs:
           to: ${{ secrets.TELEGRAM_TO }}
           token: ${{ secrets.TG_BOT_FOR_NOTICE }}
           message: |
-            <b>Today maybe raining,remember umbrella!</b> #weather
-            temp: ${{on.weather.outputs.daily[0].temp.day}}°, ${{on.weather.outputs.daily[0].weather[0].description}} 
+            * Today maybe raining! * 
+            temp: ${{on.weather.outputs.daily[0].temp.day}}°, ${{on.weather.outputs.daily[0].weather[0].description}} #weather
           format: markdown
