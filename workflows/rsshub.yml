@@ -2,52 +2,12 @@ on:
   rsshub:
     path:
       - path: /douban/group/669481
-        query: &saleQuery
+        query:
           filter_case_sensitive: false
           filter_title: 罐头|狗粮|爱肯拿|渴望|姐妹们快|牛奶|牛肉|羊肉|来伊份岩烧|来伊份面包|烤箱|生鲜|螺蛳粉|米诺|果酸|杏仁酸|鸡蛋|大米|薅|cr海盐|洗头膏|崔娅蓬松|洗鼻|橙
           filterout_title: 求|转|求购|交流|已购|专楼|蒙牛|伊利|讨论|华为|停车|代拍|完|分装|意向|拼单|删|一元
-      - path: /ncm/artist/74613
-        query:
-          param1: value
-      - path: /weibo/user/7319628020
-        query:
-            param1: value
-      - path: /weibo/user/5474293619
-        query:
-          param1: value
-      - path: /weibo/user/6136032379
-        query:
-          param1: value
-      - path: /weibo/user/7125193035
-        query:
-          param1: value
-      - path: /bilibili/live/room/4580389
-        query:
-          param1: value
-      - path: /bilibili/live/room/545156
-        query:
-          param1: value
-      - path: /telegram/channel/nCoV2019
-        query:
-          param1: value
-      - path: /ncm/playlist/2345862215
-        query:
-          param1: value
-      - path: /ncm/user/playlist/488860927
-        query:
-          param1: value
       - path: /telegram/channel/NewlearnerChannel
-        query:
-          param1: value
       - path: /telegram/channel/TGgeek
-        query:
-          param1: value
-      - path: /zhihu/people/activities/fang-fang-75-69-92
-        query:
-          param1: value
-      - path: /bilibili/user/dynamic/474937176
-        query:
-          param1: value
     config:
       skipFirst: true
       format: |
