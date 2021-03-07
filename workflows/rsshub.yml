@@ -1,7 +1,7 @@
 on:
   rsshub:
     path:
-      - /douban/group/669481
+      # - /douban/group/669481
       - /telegram/channel/NewlearnerChannel
       - /telegram/channel/TGgeek
       - /ncm/artist/74613
