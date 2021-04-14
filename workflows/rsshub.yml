@@ -16,7 +16,7 @@ on:
       - /zhihu/people/activities/fang-fang-75-69-92
       - /bilibili/user/dynamic/474937176
     config:
-      skipFirst: true
+      # skipFirst: true
       format: |
         if (item.description) {
           item.description = item.description.replace(/<[^>]*>/g, "")
